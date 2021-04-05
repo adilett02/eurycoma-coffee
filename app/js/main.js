@@ -10,23 +10,6 @@
     autoHeight: true,
     nav: true,
     navText: ['‹', '›'],
-    responsive: {
-      600: {
-        margin: 0,
-        stagePadding: 10,
-        items: 1,
-      },
-      1000: {
-        margin: 0,
-        stagePadding: 0,
-        items: 1,
-      },
-      1200: {
-        margin: 0,
-        stagePadding: 0,
-        items: 1,
-      },
-    },
   });
 
   //aos

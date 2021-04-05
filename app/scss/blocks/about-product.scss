@@ -17,6 +17,10 @@
         color: $primaryColor;
         font-weight: bold;
     }
+    h5 {
+        color: $primaryColor;
+        font-weight: bold;
+    }
 }
 .arabica-block {
     position: relative;
@@ -24,6 +28,7 @@
     background-size: cover;
     background-position: center;
     padding: 300px 0;
+    color: #fff;
     &::before {
         content: "";
         position: absolute;
@@ -33,13 +38,6 @@
         right: 0;
         background-color: #000;
         opacity: 0.3;
-    }
-}
-.arabica-container {
-    position: relative;
-    p {
-        color: white;
-        position: relative;
     }
 }
 .blue-bg {
@@ -134,6 +132,7 @@
     h5 {
         font-size: 24px;
         font-style: italic;
+        color: $secondaryColor;
     }
 }
 .buy-section {
@@ -149,18 +148,20 @@
         font-style: italic;
         font-weight: 400;
         font-size: 24px;
+        color: $secondaryColor;
         span {
             color: #fff;
         }
     }
-    // .order-btn {
-    //     border: none;
-    //     background-color: #fff;
-    //     color: $primaryColor;
-    //     &:hover {
-    //         box-shadow: 0px 0px 10px 0px #fff;
-    //     }
-    // }
+    .order-btn {
+        background: #fff;
+        color: $primaryColor;
+        &:hover {
+            border: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+        }
+    }
 }
 
 @media (max-width: 1199px) {
@@ -256,7 +257,7 @@
     padding: 50px 0;
     background-color: $primaryColor;
     text-align: center;
-    color: #bdaa25;
+    color: #fff;
     p {
         padding: 0 100px;
     }

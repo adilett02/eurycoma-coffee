@@ -1,14 +1,15 @@
 .hero {
 	height: 90vh;
-	color: #bdaa25;
+	color: $primaryColor;
 	h1 {
 		font-size: 54px;
+		color: $secondaryColor;
 	}
 }
 .order-btn {
 	display: inline-flex;
 	color: #fff;
-	background: #6cbb23;
+	background: $primaryColor;
 	border: 1px solid transparent;
 	outline: none;
 	line-height: 40px;
@@ -21,7 +22,7 @@
 	transition: all 0.3s ease;
 	border-radius: 20px;
 	span {
-		margin-left: 20px;
+		margin-left: 10px;
 		display: block;
 		width: 20px;
 		height: 20px;
@@ -33,11 +34,11 @@
 	}
 	&:hover {
 		background: transparent;
-		color: #6cbb23;
-		border: 1px solid #6cbb23;
+		color: $primaryColor;
+		border: 1px solid $primaryColor;
 		font-weight: bold;
 		svg {
-			fill: #6cbb23;
+			fill: $primaryColor;
 		}
 	}
 }
