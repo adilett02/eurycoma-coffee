@@ -84,3 +84,33 @@ nav {
         opacity: 0;
     }
 }
+
+@media (max-width: 767px) {
+    .menu {
+        position: relative;
+    }
+    nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 40px;
+        right: 0;
+        background: $primaryColor;
+        z-index: 9;
+        a {
+            color: #fff;
+            text-align: right;
+            padding: 15px 25px;
+            white-space: nowrap;
+            &:focus,
+            &:hover {
+                color: $secondaryColor;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .logo {
+        width: 60px;
+    }
+}
