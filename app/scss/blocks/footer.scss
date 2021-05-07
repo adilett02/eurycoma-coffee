@@ -55,7 +55,12 @@
         vertical-align: baseline;
     }
 }
-
+.positive-text {
+    color: #fff;
+}
+.negative-text {
+    color: #c51603;
+}
 @media (max-width: 576px) {
     .social__list {
         justify-content: center;
